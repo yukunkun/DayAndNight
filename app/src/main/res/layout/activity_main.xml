@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical"
+    tools:context="com.cxria.dayandnight.MainActivity">
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="43dp"
+        android:gravity="center_vertical"
+        android:text="Hello World!"
+        android:background="@color/color_tv_bg_1"
+        android:textColor="@color/color_tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.093"/>
+    <TextView android:layout_width="387dp"
+              android:layout_height="43dp"
+              android:text="白天或是黑夜"
+              android:background="@color/color_tv_bg_2"
+              android:textColor="@color/color_tv"
+              android:gravity="center_vertical"
+              tools:layout_editor_absoluteY="0dp"
+              tools:layout_editor_absoluteX="0dp"/>
+    <Button android:layout_width="wrap_content"
+            android:onClick="change"
+            android:layout_gravity="center_horizontal"
+            android:text="change"
+            android:textColor="#26f129"
+            android:background="@color/color_bt"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

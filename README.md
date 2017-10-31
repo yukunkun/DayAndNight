@@ -1,5 +1,5 @@
 ### Android夜晚模式实现
-
+[简书链接](http://www.jianshu.com/p/f1c09e483b11)
 ![](http://upload-images.jianshu.io/upload_images/3001453-8343773b38b1ab67.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)![S71031-13270753.jpg](http://upload-images.jianshu.io/upload_images/3001453-9309a743cbbfd2ef.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ### 超简单的实现白天夜晚模式，前提是都是Android高版本的系统。当然相信现在适配的大多数已经是高版本的系统了，4.4的一般也不会适配了吧
         compile 'com.android.support:appcompat-v7:25.+'

@@ -55,5 +55,6 @@
     //                AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
         }
     }
-　####　这里需要自己判断，这样你新开的页面就会是你需要的模式了。
+    
+####　这里需要自己判断，这样你新开的页面就会是你需要的模式了。
 #### 还可以写一个'BaseActivity',所有的'Activity'都要继承它，这里就自己慢慢琢磨吧。提供一种思路而已，应该也能实现全局的模式切换

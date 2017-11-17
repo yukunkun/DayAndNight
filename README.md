@@ -11,7 +11,7 @@
             //  获取当前模式
             int currentNightMode = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
             //  将是否为夜间模式保存到SharedPreferences
-            //  切换模式
+            //  切换模式 
             getDelegate().setDefaultNightMode(isNight ?
                     AppCompatDelegate.MODE_NIGHT_NO : AppCompatDelegate.MODE_NIGHT_YES);
     

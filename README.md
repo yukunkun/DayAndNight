@@ -6,7 +6,7 @@
 ### 超简单的实现白天夜晚模式，前提是都是Android高版本的系统。当然相信现在适配的大多数已经是高版本的系统了，4.4的一般也不会适配了吧
         compile 'com.android.support:appcompat-v7:25.+'
 #### 相信你不会低于这个包吧'Activity'才会继承'AppCompatActivity'
-#### 其实方法很简单就是一个方法就可以实现
+#### 其实方法很简单就是一个方法就可以实现 
     private void setNightMode() {
             //  获取当前模式
             int currentNightMode = getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;

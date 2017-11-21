@@ -21,8 +21,7 @@
     
         public void change(View view) {
             setNightMode();
-            isNight=!isNight;
-        }
+            isNight=!isNight; 
 #### 如上所示
     getDelegate().setDefaultNightMode(isNight ?
                         AppCompatDelegate.MODE_NIGHT_NO : AppCompatDelegate.MODE_NIGHT_YES);
